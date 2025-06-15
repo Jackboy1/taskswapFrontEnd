@@ -19,7 +19,7 @@ export default function ChatBox({ taskId: propTaskId }) {
   useEffect(() => {
     if (!user) return;
 
-    socketRef.current = io('http://localhost:5000', {
+    socketRef.current = io('https://taskswap-backend-23oy.onrender.com', {
       auth: { token: localStorage.getItem('token') },
     });
 
