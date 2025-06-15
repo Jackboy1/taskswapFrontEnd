@@ -5,7 +5,7 @@ export default function HeroSection() {
   const { user } = useAuth();
 
   return (
-    <div className="py-24 px-4 text-white">
+    <div className="py-24 px-4 text-white z-10">
       <div className="max-w-7xl mx-auto text-center">
         <h1 className="text-4xl md:text-6xl font-heading font-bold mb-6 tracking-tight text-gray-800 drop-shadow-[0_2px_4px_rgba(0,0,0,0.2)] animate-fade-in">
           Swap Skills, Build Connections
